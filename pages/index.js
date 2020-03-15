@@ -1,8 +1,14 @@
+import Link from "next/link";
+import Layout from "../components/Layout";
+import StupidText from "../components/StupidText";
+
 const Index = () => {
   return (
-    <div>
+    <Layout>
+      <StupidText />
+
       <p>Hello Next.Js</p>
-    </div>
+    </Layout>
   );
 };
 
