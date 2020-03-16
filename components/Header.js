@@ -11,6 +11,10 @@ const Header = () => {
         <a className="link-style">About</a>
       </Link>
 
+      <Link href="/shows">
+        <a className="link-style">Shows</a>
+      </Link>
+
       <style jsx>
         {`
           div {

@@ -28,7 +28,7 @@ const PostLink = props => {
 const Index = () => {
   return (
     <Layout>
-      <StupidText />
+      <StupidText animal="cats" />
 
       {/* <ul>
         <PostLink title="This is my first page" />
@@ -36,6 +36,7 @@ const Index = () => {
         <PostLink title="Things I like to eat in Spokane" />
       </ul> */}
 
+      <h1>Video Games </h1>
       <ul>
         <PostLink id="rage-2" />
         <PostLink id="outer-worlds" />
